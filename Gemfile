@@ -13,7 +13,7 @@ gemspec
 
 # To use a debugger
 gem "byebug", group: [:development, :test]
-gem "appraisal"
+gem "appraisal", ">= 2.5.0"
 gem "net-smtp"
 
 # iOS notifications
